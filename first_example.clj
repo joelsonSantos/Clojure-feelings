@@ -7,5 +7,5 @@
 (sum-two-elements 1 3)
 
 (def elements (take 10000000 (repeatedly (fn [] (int (rand 10000000))))))
-;; compute timestamp of reduce primite math operation
+;; compute timestamp of reduce primitive math operation
 (def timestp (time (reduce + elements)))
